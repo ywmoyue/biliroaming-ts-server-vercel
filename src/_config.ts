@@ -222,7 +222,7 @@ export const db_NOTION_log = process.env.NOTION_db_log || "";
 
 //======================黑白名单设置============================
 //黑名单模式 1-开 0-关
-export const blacklist_enabled: io = 1;
+export const blacklist_enabled: io = 0;
 //白名单模式 1-开 0-关
 export const whitelist_enabled: io = 0;
 //验证vip与视频要求 1-开 0-关
